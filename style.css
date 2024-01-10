@@ -1,0 +1,138 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #D5CEA3;
+}
+.judul{
+    text-align: center;
+}
+.aturan{
+    color:black;
+    text-align: center;
+    font-size: 12px;
+    border: 3px solid black;
+    width: 50%;
+    margin-left: 22%;
+    padding: 5px 3%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.footer{
+    font-size: 12px;
+    text-align: center;
+
+}
+.ig{
+    text-decoration:  none;
+    color: black;
+}
+
+
+li{
+    list-style: none;
+    margin: 5px;
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    padding: 5px 3%;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+.template {
+  text-align: center;
+
+}
+.table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  
+}
+.kolom{
+    color: white;
+    font-weight: 700px;
+    background-color: #A7727D;
+}
+.tambah_data{
+    color: white;
+    border-color: black;
+    border-radius: 4px;
+    background-color: #1A120B;
+    cursor: pointer;
+    padding: 3px;
+}
+.tambah_data:hover{
+    border: 1px solid white;
+    transition: .1s linear;
+    transition-delay: 1,s;
+}
+.hapus{
+    color: white;
+    border-color: black;
+    border-radius: 4px;
+    background-color: #A13333;
+    cursor: pointer;
+    padding: 3px;
+}
+.hapus:hover{
+    border: 1px solid white;
+    transition: .1s linear;
+    transition-delay: 1,s;
+}
+.hitung{
+    color: white;
+    border-color: black;
+    border-radius: 4px;
+    background-color: #EEEEEE;
+    cursor: pointer;
+    padding: 3px;
+    color: black;
+}
+.hitung:hover{
+    border: 1px solid white;
+    transition: .1s linear;
+    transition-delay: 1,s;
+}
+
+/* responsifnya */
+/* desktop */
+/* @media(min-width:1367px){
+    .template{
+        margin-top: 20%;
+    }
+    .title{
+        font-size: 30px;
+        position: absolute;
+        top: 130px;
+    }
+} */
+/* tablet */
+@media(max-width:834px){
+    .aturan{
+        font-size: 12px;
+        width: 60%;
+        height: 130px;
+        margin-left: 18%;
+        margin-right: 22%;
+    }
+}
+/* hp */
+@media(max-width:450px){
+    .aturan{
+        font-size: 7px;
+        width: 60%;
+        height: 130px;
+        margin-left: 18%;
+        margin-right: 22%;
+    }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arr calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300;1,400;1,600;1,700&family=Roboto+Slab:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://unpkg.com/feather-icons"></script>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  </head>
+  <body>
+    <div class="div_judul">
+      <h3 class="judul">CALCULATOR IPK MAHASISWA</h3>
+    </div>
+    <div class="aturan">
+      <p>Selamat datang pada calculator penghitung IPK. Sistem penilaian kami adalah
+      </p>
+        <ul>
+          <li>Total IPS/jumlah semester</li>
+        </ul>
+      <p>MOHON DIPERHATIKAN HASIL IPK MERUPAKAN GAMBARAN DARI NILAI YG ANDA DAPAT </p>
+      <p>DIPASTIKAN ANDA MENGINPUT DATA DENGAN BENAR</p>
+    </div>
+    <div class="template">
+      <table border="1px" class="table" style="border-color: black">
+        <tr>
+          <td class="kolom">SEMESTER</td>
+          <td class="kolom">IPS</td>
+        </tr>
+        <tr>
+          <td class="data1">
+            <input
+              type="number"
+              placeholder="Masukkan semester  "
+              style="text-align: center; color: black; flex-grow: 1;width: 100%;box-sizing: border-box;outline: none;" 
+            />
+          </td>
+          <td class="data2">
+            <input class="value data2"
+              type="number"
+              placeholder="Masukkan IPS anda"
+              style="text-align: center; color: black; flex-grow: 1;width: 100%;box-sizing: border-box;outline: none;"
+            />
+          </td>
+        </tr>
+      </table>
+      <!-- button -->
+      <div class="button">
+        <button class="tambah_data" id="tambah_data">Tambah data</button>
+        <button class="hapus" id="hapus">Hapus data</button>
+        <button class="hitung" id="hitung">Hitung IPK</button>
+      </div>
+      <div class="linknya">
+        <p>Jika ingin menghitung IPS maka klik link dibawah ini</p>
+        <a href="index.html">KLIK UNTUK MENGHITUNG IPS</a>
+      </div>
+     </div>
+    <div class="footer">
+      <p class="footer"> kasih telah berkunjung di website sederhana saya </p>
+      <i data-feather="instagram" class="ig"></i>
+      <a href="https://www.instagram.com/aryo_dedeo/" class="ig">Klik disini</a>
+    </div>
+
+
+    
+    <!-- jsnya -->
+    <script>
+      feather.replace()
+    </script>
+    <script src="js_ipk.js"></script>
+   
+  </body>
+</html>
